@@ -1,0 +1,74 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/ClashDisplay-Medium.otf);
+}
+
+body{
+    font-family: 'Inter Tight', sans-serif !important;
+    background-color: #111 !important;
+}
+
+.contest{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+}
+
+.circuit, .paper, .brain, .project, .hint, .meme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.intro{
+    background-color: rgb(131, 211, 165);
+    border-radius: 10px;
+}
+
+.intro p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.circuit{
+    background-color: rgb(154, 226, 185);
+    border-radius: 10px;
+    
+}
+
+.paper{
+    background-color: rgb(203, 224, 241);
+    border-radius: 10px;
+}
+
+.brain{
+    background-color: rgb(253, 190, 211);
+    border-radius: 10px;
+}
+
+.project{
+    background-color: rgb(53, 145, 145);
+    border-radius: 10px;
+}
+
+.hint{
+    background-color: #c5bcec;
+    border-radius: 10px;
+}
+
+.meme{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+}
+
+.team{
+    background-color: #b1a4eb;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+footer{
+    text-align: center;
+}
