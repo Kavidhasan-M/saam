@@ -14,7 +14,7 @@ body{
 }
 
 .contest{
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(8, 8, 8);
     font-weight: 600;
 }
@@ -87,4 +87,30 @@ footer{
     font-family: 'font2' !important;
     text-align: center;
     color: #fff;
+}
+
+
+
+
+
+
+.name{
+
+    color: #ff6600;
+    font-size: 90px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.year{
+    font-size: 90px !important;
+    font-family: 'font1';
+
+    color: #35444B;
 }
