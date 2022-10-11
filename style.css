@@ -20,14 +20,23 @@ body{
 }
 
 .type{
-    font-family: 'font2' !important;
+    font-family: 'Inter Tight' !important;
+    color: #111;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 13px;
     margin-bottom: 0%;
 }
 
+.more-info{
+    font-family: 'Inter Tight' !important;
+    font-size: 12px;
+    font-weight: 600;
+    color: #111;
+}
+
 .circuit, .paper, .brain, .project, .hint, .meme{
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,14 +45,22 @@ body{
 }
 
 .intro{
-    background-color: #1A73E8;
+    background-color: #7db3fa;
     color: #E8F1FD;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .intro p{
     font-size: 30px;
     font-weight: 600;
+}
+
+.intro a{
+    background-color: #fff;
+    color: #111;
+    text-decoration: none;
+    padding: 12px 24px;
 }
 
 .circuit{

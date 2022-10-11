@@ -1,0 +1,93 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/GraphikMedium.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./fonts/GraphikRegular.otf);
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif !important;
+    background-color: #02151E !important;
+    color: #fff !important;
+}
+
+.content{
+    padding: 2% 10%;
+}
+
+.content img{
+    width: 100%;
+}
+
+
+.back a button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: all .3s ease-in;
+}
+
+.back a button:hover {
+    background-color: rgb(29, 33, 53);
+}
+
+.type{
+    color: #79FE0C;
+    color: #1688E0;
+    margin-bottom: 0%;
+
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.rules{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content a.reg{
+    background-color: #1688E0;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.content a.reg:hover{
+    background-color: #147bca;
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .content{
+        padding: unset;
+    }
+
+    .back{
+        margin-top: 25px;
+    }
+
+    .name{
+        font-size: 26px;
+    }
+
+    .content a.reg{
+        
+    }
+
+}
